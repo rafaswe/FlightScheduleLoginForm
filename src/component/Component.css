@@ -1,0 +1,49 @@
+.customRadius {
+  border-radius: 7px;
+}
+.customFontSize {
+  font-size: 18px;
+}
+.customFontColor {
+  color: #949494;
+}
+.customMargin {
+  margin-bottom: 30px;
+}
+.customBlueText {
+  color: #00488e;
+  font-weight: 500;
+}
+.customBlueBtn {
+  background-color: #00488e;
+  color: white;
+}
+.CustomFormFont {
+  color: #626262;
+  /* font-size: 19px; */
+  font-weight: 600;
+}
+.Customheight {
+  height: 100vh;
+  width: 100vw;
+}
+.customFormHieght {
+  height: 88vh;
+}
+.customFormwidth {
+  width: 56%;
+}
+.customDisplay {
+}
+.customWidth {
+  width: 50%;
+}
+@media screen and (max-width: 1032px) {
+  .customDisplay {
+    display: none;
+  }
+  .customWidth {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
