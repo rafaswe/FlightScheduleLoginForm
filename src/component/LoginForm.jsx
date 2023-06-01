@@ -6,8 +6,8 @@ import MainForm from './MainForm'
 
 const LoginForm = () => {
   return (
-    <div className='mt-lg-5 pt-lg-5 '>
-      <div className='customWidth mx-auto '>
+    <div className='mt-lg-5 pt-lg-4 pt-sm-2 mt-sm-2'>
+      <div className='customWidth '>
         <div className="row gx-5 gy-2 mt-2">
           <div className="col-md-7 col-sm-12 ">
             <img src={planPhoto} className='w-100 h-100 customRadius customDisplay' alt="" />

@@ -49,10 +49,13 @@
   } */
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 767px) {
+  .customDisplay {
+    display: none;
+  }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
   .customWidth {
     width: 70%;
     margin: 0 auto;
