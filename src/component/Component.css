@@ -37,13 +37,36 @@
 }
 .customWidth {
   width: 50%;
+  margin: 0 auto;
 }
-@media screen and (max-width: 1032px) {
+@media screen and (max-width: 667px) {
   .customDisplay {
     display: none;
   }
+  /* .customWidth {
+    width: 40%;
+    margin: 0 auto;
+  } */
+}
+
+@media screen and (max-width: 991px) {
+}
+
+@media screen and (max-width: 767px) {
   .customWidth {
     width: 70%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1119px) {
+  .customWidth {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .customWidth {
+    width: 90%;
     margin: 0 auto;
   }
 }
