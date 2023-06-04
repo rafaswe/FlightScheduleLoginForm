@@ -2,7 +2,7 @@
   border-radius: 7px;
 }
 .customFontSize {
-  font-size: 18px;
+  font-size: 1rem;
 }
 .customFontColor {
   color: #949494;
@@ -35,6 +35,8 @@
 }
 .customDisplay {
 }
+.customFormWidth {
+}
 .customWidth {
   width: 50%;
   margin: 0 auto;
@@ -53,6 +55,10 @@
   .customDisplay {
     display: none;
   }
+  .customFormWidth {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -70,6 +76,12 @@
 @media screen and (max-width: 1400px) {
   .customWidth {
     width: 90%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1751px) and (min-width: 1185px) {
+  .customWidth {
+    width: 60%;
     margin: 0 auto;
   }
 }

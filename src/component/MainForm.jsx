@@ -40,13 +40,13 @@ const MainForm = () => {
       </Form.Item>
 
       <div className="row justify-content-center my-1">
-        <div className="col-lg-6 col-sm-12">
+        <div className="col-lg-6 col-md-12">
         <Form.Item className=''>
         <Switch size="small"/>
         <Text className='fs-6 customFontColor ms-2 pt-1'>Remember me</Text>
           </Form.Item>
         </div>
-        <div className="col-lg-6 col-sm-12 text-lg-end text-sm-start pt-1">
+        <div className="col-lg-6 col-md-12 text-lg-end text-sm-start pt-1">
             <Link href="https://ant.design" target="_blank">
               <Text underline className='fs-6 customBlueText '>Forgot Password?</Text>
             </Link>
